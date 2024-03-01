@@ -2,7 +2,7 @@ import React from "react";
 import SignupBar from "./Signupbar";
 import Countrydropdown from "./Countrydropdown";
 
-const Footer = () => {
+const MyFooter = () => {
   return (
     <div>
       <div className=" flex flex-row w-[1024px] h-[171px] text-[32px] ml-[338px] text-[#5C6874]">
@@ -37,4 +37,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default MyFooter;

@@ -1,6 +1,6 @@
 import React from "react";
 import { CiTrophy } from "react-icons/ci";
-import Tile from "./Tile";
+import Tile from "./Tile.jsx";
 import { FiChevronDown } from "react-icons/fi";
 
 const Productnormal = ({

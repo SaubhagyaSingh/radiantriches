@@ -1,7 +1,7 @@
 import React from "react";
 import Tile from "./Tile";
 import { FiChevronDown } from "react-icons/fi";
-import Features from "./Features"; // Import the Features component
+import Features from "./Features.jsx"; // Import the Features component
 
 const FinalProduct = ({
   myrating,

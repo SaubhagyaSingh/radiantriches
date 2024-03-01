@@ -3,26 +3,22 @@ import { CiTrophy } from "react-icons/ci";
 import Tile from "./Tile";
 import { FiChevronDown } from "react-icons/fi";
 
-const Product = ({
-  myrating,
+const Productnormal = ({
   no,
-  trophyText,
+  mainhighlights,
   prevImage,
   builderName,
   title,
   highlights,
-  mainhighlights,
+  myrating,
 }) => {
   return (
     <div className="mt-12 mb-24 flex gap-16 items-center ml-[248px] w-[1024px] h-[300px] py-2 px-2">
       <div className="flex flex-col">
-        <div className="mb-10 flex bg-[#FF7724] w-[136px] h-[34px] rounded-[8px] text-white items-center justify-center">
-          <CiTrophy size={20} /> {trophyText}
-        </div>
         <div className=" flex items-center justify-center text-[20px] mb-12 border-[1px] h-[44px] w-[44px] rounded-2xl text-center">
           {" "}
           {no}
-        </div>
+        </div>{" "}
         <div>
           <img
             className="h-[103px] w-[141px] mb-8"
@@ -51,4 +47,4 @@ const Product = ({
   );
 };
 
-export default Product;
+export default Productnormal;

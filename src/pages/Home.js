@@ -6,6 +6,8 @@ import Product from "../components/Product";
 import prev from "../assets/prev.png";
 import Productnormal from "../components/Productnormal";
 import ProductCard from "../components/ProductCard";
+import FinalProduct from "../components/FinalProduct";
+
 const productData = {
   no: 1,
   myrating: 9.8,
@@ -70,12 +72,12 @@ const Home = () => {
         <Product {...productData}></Product>
         <Product {...productData2}></Product>
         <Productnormal {...productData3}></Productnormal>
-        <Productnormal {...productData}></Productnormal>
+        <FinalProduct {...productData}></FinalProduct>
         <h3 className="ml-[292px] text-[32px] text-[#2C384A]">
           Related ideas you might Like for
         </h3>
-        <div className="flex mt-12">
-          <div className="ml-[260px]"></div>
+        <div className="flex mt-12 mb-16">
+          <div className="ml-[200px]"></div>
           <ProductCard {...card1info} />
           <ProductCard {...card1info} />
           <ProductCard {...card1info} />

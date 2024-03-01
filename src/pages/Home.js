@@ -64,7 +64,7 @@ const Home = () => {
       <div className="mt-[38px] text-[48px] w-[100%] ml-[248px] text-[#2C384A]">
         Best Website builders in the US
       </div>
-      <Breadcrumbs></Breadcrumbs>
+      <Breadcrumbs/>
       <Categorybar></Categorybar>
       <Navhistory></Navhistory>
 

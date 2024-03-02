@@ -13,9 +13,9 @@ const navbar = () => {
             className=" h-[37px] w-[258px] border border-gray-300 rounded-[8px] focus:outline-none focus:border-blue-500"
           ></input>
         </form>
-        <a className="ml-[80px] text-[#D1D6DA]">Categories</a>
-        <a className="ml-[80px] text-[#D1D6DA]">Website Builders</a>
-        <a className="ml-[100px] text-[#D1D6DA]">Today's deals</a>
+        <a href="" className="ml-[80px] text-[#D1D6DA]">Categories</a>
+        <a href="" className="ml-[80px] text-[#D1D6DA]">Website Builders</a>
+        <a href="" className="ml-[100px] text-[#D1D6DA]">Today's deals</a>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Categorybar from "../components/Categorybar.jsx";
-import Breadcrumbs from "../components/Breadcrumbs.jsx";
+import MyBreadcrumbs from "../components/MyBreadcrumbs.jsx";
 import Navhistory from "../components/Navhistory.jsx";
 import Product from "../components/Product.jsx";
 import prev from "../assets/prev.png";
@@ -64,7 +64,7 @@ const Home = () => {
       <div className="mt-[38px] text-[48px] w-[100%] ml-[248px] text-[#2C384A]">
         Best Website builders in the US
       </div>
-      <Breadcrumbs/>
+      <MyBreadcrumbs />
       <Categorybar></Categorybar>
       <Navhistory></Navhistory>
 

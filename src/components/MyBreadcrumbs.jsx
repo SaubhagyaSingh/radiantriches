@@ -2,7 +2,7 @@ import React from "react";
 import { FiChevronDown } from "react-icons/fi";
 import { GoInfo, GoVerified } from "react-icons/go";
 
-const Breadcrumbs = () => {
+const MyBreadcrumbs = () => {
   return (
     <div className="mt-[11px]">
       <hr className="bg-gray-300 w-[1024px] ml-[244px] p-2" />
@@ -29,4 +29,4 @@ const Breadcrumbs = () => {
   );
 };
 
-export default Breadcrumbs;
+export default MyBreadcrumbs;

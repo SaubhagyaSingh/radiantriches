@@ -1,12 +1,12 @@
 import React from "react";
-import Categorybar from "../components/Categorybar.jsx";
-import MyBreadcrumbs from "../components/MyBreadcrumbs.jsx";
-import Navhistory from "../components/Navhistory.jsx";
-import MyProduct from "../components/MyProduct.jsx";
+import Categorybar from "../Components/Categorybar.jsx";
+import MyBreadcrumbs from "../Components/MyBreadcrumbs.jsx";
+import Navhistory from "../Components/Navhistory.jsx";
+import MyProduct from "../Components/MyProduct.jsx";
 import prev from "../assets/prev.png";
-import Productnormal from "../components/Productnormal.jsx";
-import ProductCard from "../components/ProductCard.jsx";
-import FinalProduct from "../components/FinalProduct.jsx";
+import Productnormal from "../Components/Productnormal.jsx";
+import ProductCard from "../Components/ProductCard.jsx";
+import FinalProduct from "../Components/FinalProduct.jsx";
 
 const productData = {
   no: 1,

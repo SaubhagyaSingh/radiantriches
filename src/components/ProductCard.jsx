@@ -27,7 +27,7 @@ const ProductCard = ({
         <span className="text-gray-500 ml-2 line-through">{originalPrice}</span>
       </div>
       <div className="mb-6">{" " + discount}% off</div>
-      <button className="w-[292px] h-[48px] text-white bg-blue-500 rounded-md border-none rounded-2xl cursor-pointer">
+      <button className="w-[292px] h-[48px] text-white bg-blue-500  border-none rounded-2xl cursor-pointer">
         View Deal
       </button>
     </div>

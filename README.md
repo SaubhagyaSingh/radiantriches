@@ -1,3 +1,7 @@
+# Visit this site:
+(https://radiantriches-hr6m.vercel.app/)
+This is a working clone of the Figma file provided by the Radiant riches team as an Assignment.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

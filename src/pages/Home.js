@@ -2,7 +2,7 @@ import React from "react";
 import Categorybar from "../components/Categorybar.jsx";
 import MyBreadcrumbs from "../components/MyBreadcrumbs.jsx";
 import Navhistory from "../components/Navhistory.jsx";
-import Product from "../components/Product.jsx";
+import MyProduct from "../components/MyProduct.jsx";
 import prev from "../assets/prev.png";
 import Productnormal from "../components/Productnormal.jsx";
 import ProductCard from "../components/ProductCard.jsx";
@@ -69,8 +69,8 @@ const Home = () => {
       <Navhistory></Navhistory>
 
       <div className="">
-        <Product {...productData}></Product>
-        <Product {...productData2}></Product>
+        <MyProduct {...productData}></MyProduct>
+        <MyProduct {...productData2}></MyProduct>
         <Productnormal {...productData3}></Productnormal>
         <FinalProduct {...productData}></FinalProduct>
         <h3 className="ml-[292px] text-[32px] text-[#2C384A]">

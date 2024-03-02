@@ -3,7 +3,7 @@ import { CiTrophy } from "react-icons/ci";
 import Tile from "./Tile.jsx";
 import { FiChevronDown } from "react-icons/fi";
 
-const Product = ({
+const MyProduct = ({
   myrating,
   no,
   trophyText,
@@ -51,4 +51,4 @@ const Product = ({
   );
 };
 
-export default Product;
+export default MyProduct;
